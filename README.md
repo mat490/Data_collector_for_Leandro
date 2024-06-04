@@ -26,7 +26,7 @@ Los obstáculos son cuadrados violeta, estos se encuentran en la capa “capasOb
 
 La comida es un circulo verde, estas se encuentran en la capa “capasComida”, tienen un RigidBody 2D y un Circle Collider 2D marcado como trigger:
 
-![Untitled](./imagenes/Untitled.PNG "Untitled")
+![Untitled](./imagenes/Untitled.png "Untitled")
 
 **Celdas y limite**
 
