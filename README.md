@@ -22,21 +22,21 @@ Los elementos contenidos en la carpeta Prefabs son:
 
 Los obstáculos son cuadrados violeta, estos se encuentran en la capa “capasObstaculo”, y tienen un RigidBody 2D:
 
-![Untitled](./Imagenes/Untitled.JPG)
+![Untitled](./Imagenes/Untitled.jpg)
 
 La comida es un circulo verde, estas se encuentran en la capa “capasComida”, tienen un RigidBody 2D y un Circle Collider 2D marcado como trigger:
 
-![Untitled_1](./Imagenes/Untitled_1.JPG "Untitled_1")
+![Untitled_1](./Imagenes/Untitled_1.jpg "Untitled_1")
 
 **Celdas y limite**
 
 El limite es un cuadrado naranja ubicado en la capa “capasObstaculo”:
 
-![Untitled_2](./Imagenes/Untitled_2.JPG)
+![Untitled_2](./Imagenes/Untitled_2.jpg)
 
 Las celdas son cuadrados blancos y negros con un Box Collider 2D y el script celdaPos que envía al jugador la posición de la celda que pisa:
 
-![Untitled_3](./Imagenes/Untitled_3.JPG)
+![Untitled_3](./Imagenes/Untitled_3.jpg)
 
 ### Scenes
 
@@ -112,21 +112,21 @@ La línea comentada al final sugiere que el script del jugador podría ser acced
 
 Para simular el escenario del Agente Triangulo se creo una rejilla de 8x8 que donde se generan un limite, el agente triangulo, obstáculos y comida. En la esquina superior derecha encontramos un botón para guardar los datos una vez terminada la secuencia de movimientos del usuario, los obstáculos y la comida se generan aleatoriamente en los limites pero el agente siempre se genera en las coordenadas (-3,3) esto con el fin de limitar los escenarios posibles y los datos de entrenamiento no omitan demasiados escenarios:
 
-![Untitled_4](./Imagenes/Untitled_4.JPG)
+![Untitled_4](./Imagenes/Untitled_4.jpg)
 
 ### Agente Triangulo
 
 Es controlado por el usuario con las teclas de navegación (flechitas). Siempre se genera en las coordenadas (-3,3), tiene el tag “Player”, un sprite de triangulo nativo de Unity con un color rojo asignado, contiene la script principal “Jugador.cs”, un RigidBody 2D y un Circle Collider 2D marcado como trigger:
 
-![Untitled_5](./Imagenes/Untitled_5.JPG)
+![Untitled_5](./Imagenes/Untitled_5.jpg)
 
-![Untitled_6](./Imagenes/Untitled_6.JPG)
+![Untitled_6](./Imagenes/Untitled_6.jpg)
 
 ### Generador de obstaculos y comida
 
 Es un empty Game Object que contiene la script “Generador.cs” y por lo tanto es el encargado de generar los obstáculos y la comida en el mapa:
 
-![Untitled_7](./Imagenes/Untitled_7.JPG)
+![Untitled_7](./Imagenes/Untitled_7.jpg)
 
 ### Manera en la que se almacenan los datos
 
@@ -147,4 +147,4 @@ Los datos recopilados son almacenados en un archivo .txt al presionar el botón 
 **x, y, movPasado, estadoIzq, estadoDer, estadoArr, estadoAba, movDecidido**
 3, -3,     4 ,                 0,                1,               0,               1,               1
 
-![Untitled](Recopilacio%CC%81n%20de%20datos%20con%20Unity%20para%20el%20Agente%20Le%20a74ea777e0bd438cb7bf9f9883f1432c/Untitled%208.png)
+![Untitled_8](./Imagenes/Untitled_8.jpg)
