@@ -22,7 +22,7 @@ Los elementos contenidos en la carpeta Prefabs son:
 
 Los obstáculos son cuadrados violeta, estos se encuentran en la capa “capasObstaculo”, y tienen un RigidBody 2D:
 
-![Untitled](Recopilacio%CC%81n%20de%20datos%20con%20Unity%20para%20el%20Agente%20Le%20a74ea777e0bd438cb7bf9f9883f1432c/Untitled.png)
+![Untitled 1](./Recopilación de datos con Unity para el Agente Le a74ea777e0bd438cb7bf9f9883f1432c/Untitled 1.PNG "Untitled 1")
 
 La comida es un circulo verde, estas se encuentran en la capa “capasComida”, tienen un RigidBody 2D y un Circle Collider 2D marcado como trigger:
 
